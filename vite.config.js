@@ -1,8 +1,0 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: "/my-todo-app/", // <-- This is the line you add or update
-})
